@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".LoginActivity">
+    tools:context=".ui.LoginActivity">
 
     <ProgressBar
         android:id="@+id/progressBarLogin"
@@ -57,6 +57,13 @@
                 android:background="@color/colorPrimary"
                 android:text="Sign In"
                 android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/buttonRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Sign Up" />
         </LinearLayout>
     </ScrollView>
 
